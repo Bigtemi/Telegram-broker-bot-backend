@@ -1,0 +1,17 @@
+{
+  "name": "telegram-broker-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot backend for broker verification",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.5.0",
+    "node-telegram-bot-api": "^0.61.0",
+    "tesseract.js": "^4.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  }
+}
